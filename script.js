@@ -12,10 +12,14 @@ $( document ).ready(function() {
             $(this).next().css("display","none");
         }
     });
-    $("button").click(function(){
-        for(i=0;i<$("input").length;i++){
+    $(".send").click(function(){
+        if($("input").eq(0).val().length >=5 && $("input").eq(1).val().length>=5 &&$("input").eq(2).val().length>=5 &&$("input").eq(3).val().length>=5){
             $("input").val("");
-        }  
+            $(this).next().css("display","none");
+        }
+        else{
+            $(this).next().css("display","block");
+        }
     });
     
 });

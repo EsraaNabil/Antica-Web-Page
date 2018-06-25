@@ -22,7 +22,6 @@ header{
         }
         button{
             background-color: transparent;
-            border: 1px solid white;
         }
     }
     .first{
@@ -61,6 +60,9 @@ header{
     .carousel-indicators {
         position: absolute;
         top: 207%;
+    }
+    .carousel-indicators .active {
+        background-color: white !important;
     }
 }
 

@@ -90,8 +90,7 @@ header {
   header nav .navbar-collapse {
     padding-right: 125px; }
   header nav button {
-    background-color: transparent;
-    border: 1px solid white; }
+    background-color: transparent; }
   header .first {
     padding: 136.5px 0px; }
     header .first div {
@@ -116,6 +115,8 @@ header {
   header .carousel-indicators {
     position: absolute;
     top: 207%; }
+  header .carousel-indicators .active {
+    background-color: white !important; }
 
 @media all and (max-width: 992px) {
   header .navbar-nav {
@@ -286,6 +287,11 @@ footer {
     color: red !important;
     font-size: 11px;
     display: none; }
+  footer p.buttonFalidation {
+    position: absolute;
+    right: 36%;
+    bottom: -17px;
+    font-size: 15px; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
