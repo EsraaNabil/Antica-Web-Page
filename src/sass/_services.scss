@@ -1,0 +1,36 @@
+.services{
+    background-image: url('../../images/section3.png');
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    i{
+        color: white;
+        margin-top: -12px;
+        cursor: pointer;
+    }
+    .row{
+        color: white;
+    }
+    .service{
+        background-color:rgba(255,255,255, 0.9);
+    }
+    .card{
+        border: none;
+        color: black;
+        background-color: transparent;
+        padding: 50px;
+        img{
+            width: 50px;
+            margin-bottom: 15px;
+        }
+        .card-body{
+            padding: 0px;
+        }
+    }
+    h2{
+        font-size: 50px;
+    }
+    p{
+        font-size: 13px;
+    }
+}

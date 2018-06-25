@@ -1,0 +1,56 @@
+.projects{
+
+    .leftSide{
+        background-image: url('../../images/frame.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        ul{
+            li{
+                font-weight: bold;
+                list-style: none;
+            }
+        }
+    }
+    .row{
+        .pic{
+            padding: 0px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    i{
+        color: black;
+        float: right;
+        clear: both;
+        margin-top: 25px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    h2{
+        font-size: 40px;
+        }
+    p{
+        font-size: 13px;
+    }
+    .left,.right{
+        color: black;
+    }
+    .left{
+        padding-left: 53px !important;
+    }
+    h2{
+        font-size: 50px;
+    }
+    .carousel-indicators .active {
+        background-color: $yellow !important;
+    }
+    .carousel-indicators{
+        width: 50px;
+        position: absolute;
+        bottom: 12%;
+        left: 74%;
+    } 
+}

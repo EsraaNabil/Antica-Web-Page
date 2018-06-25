@@ -1,0 +1,71 @@
+footer{
+ padding-top: 100px;
+ padding-bottom: 40px;
+ background-image: url('../../images/footer.png');
+ background-size: cover;
+ .container-fluid{
+    .contain{
+        padding-left: 100px;
+        ul{
+        padding-left: 0px;
+        li{
+            font-size: 12px;
+            list-style: none;
+        }
+        }
+        .span{
+            font-size: 12px;
+        }
+    }
+    i{
+        margin-top: 17px;
+        color: white;
+        margin-top: -38px;
+     }
+    h2{
+        font-size: 50px;
+    }
+    p,h2{
+        color: white;
+    }
+ }
+ .form-control{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 0px;
+    color: white;
+ }
+ .form-control:focus{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 0px;
+    color: white;
+    outline: none;
+    box-shadow: none;
+ }
+ .form-control::placeholder {
+    color: white;
+  }
+ .message{
+     padding-bottom: 100px;
+ }
+ .btn{
+     border-radius: 0px;
+     border: solid 1px rgba(255,255,255, 0.4);
+     padding: 5px 15px;
+     float: right;
+     clear: both;
+ }
+ .btn-outline-light:hover{
+    color: white;
+    background-color: transparent;
+    border: solid 1px rgba(255,255,255, 0.4);;
+ }
+ p.valid{
+     color: red !important;
+     font-size: 11px;
+     display: none;
+ }
+}

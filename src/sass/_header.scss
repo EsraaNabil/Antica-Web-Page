@@ -1,0 +1,105 @@
+header{
+    background-image: url('../../images/section.png');
+    background-size: cover;
+    nav{
+        .logo{
+            width: 60px;
+            position: fixed;
+            margin-top: -30px;
+        }
+        i{
+            margin-top: -16px;
+        }
+        a,i{
+            color: white;
+            cursor: pointer;
+        }
+        a:hover{
+            color: white;
+        }
+        .navbar-collapse{
+            padding-right: 125px;
+        }
+        button{
+            background-color: transparent;
+            border: 1px solid white;
+        }
+    }
+    .first{
+        padding: 136.5px 0px;
+        div{
+            color: white;
+            .mainPar{
+                font-size: 27px;
+                span{
+                    color: $yellow;
+                }
+            }
+            .abs{
+                position: absolute;
+                top: 63%;
+                right: 0px;
+                hr{
+                    border-color: white;
+                    max-width: 20px;
+                }
+            }
+            .learnMore{
+                cursor: pointer;
+            }
+        }
+        .col-sm-2,.touch{
+            div{
+                transform: rotate(-90deg);
+            }
+        }
+      
+    }
+    img{
+        cursor: pointer;
+    }
+    .carousel-indicators {
+        position: absolute;
+        top: 207%;
+    }
+}
+
+@media all and (max-width:992px){
+    header{
+        .navbar-nav{
+            margin-top: 15px;
+        }
+        .menuHeader{
+            display: none;
+        }
+        .first{
+            div{
+                .mainPar{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+@media all and (max-width:651px){
+    header{
+        .first{
+            div{
+                .mainPar{
+                    font-size:initial;
+                }
+            }
+        }
+    }
+}
+@media all and (max-width:576px){
+    header{
+        .first{
+            div{
+                .abs{
+                    right: 4%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.section2{
+    padding-top: 70px;
+    .creative{
+        background-image: url('../../images/section2.png');
+        background-size: cover;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        h2{
+            font-size: 50px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+    .col-sm-6{
+        color: black;
+        padding-bottom: 70px;
+    }
+    .carousel-indicators .active {
+        background-color: $yellow !important;
+    }
+    .carousel-indicators{
+        position: absolute;
+        bottom: -13%;
+        right: -16%;
+    }  
+    .parWid{
+        width:46.5%; 
+    }
+}
